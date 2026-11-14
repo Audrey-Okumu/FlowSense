@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# FlowSense large media & ML model weights
+*.mp4
+*.mov
+*.avi
+*.pt
