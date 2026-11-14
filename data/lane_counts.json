@@ -1,0 +1,4038 @@
+{
+  "video_source": "data/traffic_analysis.mp4",
+  "fps": 29,
+  "sample_interval_frames": 2,
+  "total_snapshots": 403,
+  "timeline": [
+    {
+      "frame": 0,
+      "timestamp": 0.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 2,
+      "timestamp": 0.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 5
+      }
+    },
+    {
+      "frame": 4,
+      "timestamp": 0.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 5
+      }
+    },
+    {
+      "frame": 6,
+      "timestamp": 0.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 5
+      }
+    },
+    {
+      "frame": 8,
+      "timestamp": 0.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 5
+      }
+    },
+    {
+      "frame": 10,
+      "timestamp": 0.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 12,
+      "timestamp": 0.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 14,
+      "timestamp": 0.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 16,
+      "timestamp": 0.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 18,
+      "timestamp": 0.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 20,
+      "timestamp": 0.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 22,
+      "timestamp": 0.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 24,
+      "timestamp": 0.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 26,
+      "timestamp": 0.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 28,
+      "timestamp": 0.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 30,
+      "timestamp": 1.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 32,
+      "timestamp": 1.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 34,
+      "timestamp": 1.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 36,
+      "timestamp": 1.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 38,
+      "timestamp": 1.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 40,
+      "timestamp": 1.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 42,
+      "timestamp": 1.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 44,
+      "timestamp": 1.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 46,
+      "timestamp": 1.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 48,
+      "timestamp": 1.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 50,
+      "timestamp": 1.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 52,
+      "timestamp": 1.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 54,
+      "timestamp": 1.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 56,
+      "timestamp": 1.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 58,
+      "timestamp": 2.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 60,
+      "timestamp": 2.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 62,
+      "timestamp": 2.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 64,
+      "timestamp": 2.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 66,
+      "timestamp": 2.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 68,
+      "timestamp": 2.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 70,
+      "timestamp": 2.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 72,
+      "timestamp": 2.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 74,
+      "timestamp": 2.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 76,
+      "timestamp": 2.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 78,
+      "timestamp": 2.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 80,
+      "timestamp": 2.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 82,
+      "timestamp": 2.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 84,
+      "timestamp": 2.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 86,
+      "timestamp": 2.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 88,
+      "timestamp": 3.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 90,
+      "timestamp": 3.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 92,
+      "timestamp": 3.17,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 94,
+      "timestamp": 3.24,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 96,
+      "timestamp": 3.31,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 98,
+      "timestamp": 3.38,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 100,
+      "timestamp": 3.45,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 102,
+      "timestamp": 3.52,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 104,
+      "timestamp": 3.59,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 106,
+      "timestamp": 3.66,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 108,
+      "timestamp": 3.72,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 110,
+      "timestamp": 3.79,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 112,
+      "timestamp": 3.86,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 114,
+      "timestamp": 3.93,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 116,
+      "timestamp": 4.0,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 118,
+      "timestamp": 4.07,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 120,
+      "timestamp": 4.14,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 122,
+      "timestamp": 4.21,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 124,
+      "timestamp": 4.28,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 126,
+      "timestamp": 4.34,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 128,
+      "timestamp": 4.41,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 130,
+      "timestamp": 4.48,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 132,
+      "timestamp": 4.55,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 5
+      }
+    },
+    {
+      "frame": 134,
+      "timestamp": 4.62,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 136,
+      "timestamp": 4.69,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 138,
+      "timestamp": 4.76,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 5
+      }
+    },
+    {
+      "frame": 140,
+      "timestamp": 4.83,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 4
+      }
+    },
+    {
+      "frame": 142,
+      "timestamp": 4.9,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 5
+      }
+    },
+    {
+      "frame": 144,
+      "timestamp": 4.97,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 4
+      }
+    },
+    {
+      "frame": 146,
+      "timestamp": 5.03,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 4
+      }
+    },
+    {
+      "frame": 148,
+      "timestamp": 5.1,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 4
+      }
+    },
+    {
+      "frame": 150,
+      "timestamp": 5.17,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 5
+      }
+    },
+    {
+      "frame": 152,
+      "timestamp": 5.24,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 5
+      }
+    },
+    {
+      "frame": 154,
+      "timestamp": 5.31,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 4
+      }
+    },
+    {
+      "frame": 156,
+      "timestamp": 5.38,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 4
+      }
+    },
+    {
+      "frame": 158,
+      "timestamp": 5.45,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 3,
+        "east": 4
+      }
+    },
+    {
+      "frame": 160,
+      "timestamp": 5.52,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 4
+      }
+    },
+    {
+      "frame": 162,
+      "timestamp": 5.59,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 164,
+      "timestamp": 5.66,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 166,
+      "timestamp": 5.72,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 168,
+      "timestamp": 5.79,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 170,
+      "timestamp": 5.86,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 172,
+      "timestamp": 5.93,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 174,
+      "timestamp": 6.0,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 176,
+      "timestamp": 6.07,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 178,
+      "timestamp": 6.14,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 180,
+      "timestamp": 6.21,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 182,
+      "timestamp": 6.28,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 184,
+      "timestamp": 6.34,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 186,
+      "timestamp": 6.41,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 188,
+      "timestamp": 6.48,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 190,
+      "timestamp": 6.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 192,
+      "timestamp": 6.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 194,
+      "timestamp": 6.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 196,
+      "timestamp": 6.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 198,
+      "timestamp": 6.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 200,
+      "timestamp": 6.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 202,
+      "timestamp": 6.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 204,
+      "timestamp": 7.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 206,
+      "timestamp": 7.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 208,
+      "timestamp": 7.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 210,
+      "timestamp": 7.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 212,
+      "timestamp": 7.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 214,
+      "timestamp": 7.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 216,
+      "timestamp": 7.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 218,
+      "timestamp": 7.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 220,
+      "timestamp": 7.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 222,
+      "timestamp": 7.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 224,
+      "timestamp": 7.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 226,
+      "timestamp": 7.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 228,
+      "timestamp": 7.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 230,
+      "timestamp": 7.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 3,
+        "east": 6
+      }
+    },
+    {
+      "frame": 232,
+      "timestamp": 8.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 234,
+      "timestamp": 8.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 236,
+      "timestamp": 8.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 238,
+      "timestamp": 8.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 240,
+      "timestamp": 8.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 242,
+      "timestamp": 8.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 244,
+      "timestamp": 8.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 246,
+      "timestamp": 8.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 248,
+      "timestamp": 8.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 4
+      }
+    },
+    {
+      "frame": 250,
+      "timestamp": 8.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 252,
+      "timestamp": 8.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 254,
+      "timestamp": 8.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 256,
+      "timestamp": 8.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 258,
+      "timestamp": 8.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 260,
+      "timestamp": 8.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 262,
+      "timestamp": 9.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 264,
+      "timestamp": 9.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 5
+      }
+    },
+    {
+      "frame": 266,
+      "timestamp": 9.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 268,
+      "timestamp": 9.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 270,
+      "timestamp": 9.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 5
+      }
+    },
+    {
+      "frame": 272,
+      "timestamp": 9.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 274,
+      "timestamp": 9.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 4
+      }
+    },
+    {
+      "frame": 276,
+      "timestamp": 9.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 278,
+      "timestamp": 9.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 280,
+      "timestamp": 9.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 282,
+      "timestamp": 9.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 5
+      }
+    },
+    {
+      "frame": 284,
+      "timestamp": 9.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 286,
+      "timestamp": 9.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 288,
+      "timestamp": 9.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 290,
+      "timestamp": 10.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 292,
+      "timestamp": 10.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 294,
+      "timestamp": 10.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 296,
+      "timestamp": 10.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 298,
+      "timestamp": 10.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 300,
+      "timestamp": 10.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 302,
+      "timestamp": 10.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 304,
+      "timestamp": 10.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    },
+    {
+      "frame": 306,
+      "timestamp": 10.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 308,
+      "timestamp": 10.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 310,
+      "timestamp": 10.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 312,
+      "timestamp": 10.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 314,
+      "timestamp": 10.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 316,
+      "timestamp": 10.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 318,
+      "timestamp": 10.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 320,
+      "timestamp": 11.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 322,
+      "timestamp": 11.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 324,
+      "timestamp": 11.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 326,
+      "timestamp": 11.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 328,
+      "timestamp": 11.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 330,
+      "timestamp": 11.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 332,
+      "timestamp": 11.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 334,
+      "timestamp": 11.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 336,
+      "timestamp": 11.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 338,
+      "timestamp": 11.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 340,
+      "timestamp": 11.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 6
+      }
+    },
+    {
+      "frame": 342,
+      "timestamp": 11.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 344,
+      "timestamp": 11.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 346,
+      "timestamp": 11.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 348,
+      "timestamp": 12.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 350,
+      "timestamp": 12.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 352,
+      "timestamp": 12.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 354,
+      "timestamp": 12.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 356,
+      "timestamp": 12.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 358,
+      "timestamp": 12.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 360,
+      "timestamp": 12.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 362,
+      "timestamp": 12.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 364,
+      "timestamp": 12.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 366,
+      "timestamp": 12.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 368,
+      "timestamp": 12.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 370,
+      "timestamp": 12.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 372,
+      "timestamp": 12.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 374,
+      "timestamp": 12.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 6
+      }
+    },
+    {
+      "frame": 376,
+      "timestamp": 12.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 378,
+      "timestamp": 13.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 380,
+      "timestamp": 13.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 382,
+      "timestamp": 13.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 384,
+      "timestamp": 13.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 386,
+      "timestamp": 13.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 388,
+      "timestamp": 13.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 390,
+      "timestamp": 13.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 392,
+      "timestamp": 13.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 394,
+      "timestamp": 13.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 396,
+      "timestamp": 13.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 398,
+      "timestamp": 13.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 400,
+      "timestamp": 13.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 402,
+      "timestamp": 13.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 404,
+      "timestamp": 13.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 406,
+      "timestamp": 14.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 408,
+      "timestamp": 14.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 410,
+      "timestamp": 14.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 412,
+      "timestamp": 14.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 414,
+      "timestamp": 14.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 416,
+      "timestamp": 14.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 418,
+      "timestamp": 14.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 420,
+      "timestamp": 14.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 422,
+      "timestamp": 14.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 424,
+      "timestamp": 14.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 426,
+      "timestamp": 14.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 428,
+      "timestamp": 14.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 430,
+      "timestamp": 14.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 432,
+      "timestamp": 14.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 434,
+      "timestamp": 14.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 436,
+      "timestamp": 15.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 438,
+      "timestamp": 15.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 440,
+      "timestamp": 15.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 442,
+      "timestamp": 15.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 444,
+      "timestamp": 15.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 446,
+      "timestamp": 15.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 448,
+      "timestamp": 15.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 450,
+      "timestamp": 15.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 452,
+      "timestamp": 15.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 454,
+      "timestamp": 15.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 456,
+      "timestamp": 15.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 458,
+      "timestamp": 15.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 460,
+      "timestamp": 15.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 462,
+      "timestamp": 15.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 464,
+      "timestamp": 16.0,
+      "lanes": {
+        "north": 3,
+        "south": 7,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 466,
+      "timestamp": 16.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 468,
+      "timestamp": 16.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 470,
+      "timestamp": 16.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 472,
+      "timestamp": 16.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 474,
+      "timestamp": 16.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 476,
+      "timestamp": 16.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 478,
+      "timestamp": 16.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 480,
+      "timestamp": 16.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 482,
+      "timestamp": 16.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 484,
+      "timestamp": 16.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 486,
+      "timestamp": 16.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 488,
+      "timestamp": 16.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 490,
+      "timestamp": 16.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 492,
+      "timestamp": 16.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 494,
+      "timestamp": 17.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 496,
+      "timestamp": 17.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 498,
+      "timestamp": 17.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 500,
+      "timestamp": 17.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 502,
+      "timestamp": 17.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 504,
+      "timestamp": 17.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 506,
+      "timestamp": 17.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 508,
+      "timestamp": 17.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 510,
+      "timestamp": 17.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 512,
+      "timestamp": 17.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 514,
+      "timestamp": 17.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 516,
+      "timestamp": 17.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 518,
+      "timestamp": 17.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 520,
+      "timestamp": 17.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 522,
+      "timestamp": 18.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 524,
+      "timestamp": 18.07,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 526,
+      "timestamp": 18.14,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 528,
+      "timestamp": 18.21,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 530,
+      "timestamp": 18.28,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 532,
+      "timestamp": 18.34,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 534,
+      "timestamp": 18.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 536,
+      "timestamp": 18.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 538,
+      "timestamp": 18.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 540,
+      "timestamp": 18.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 542,
+      "timestamp": 18.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 544,
+      "timestamp": 18.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 546,
+      "timestamp": 18.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 548,
+      "timestamp": 18.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 550,
+      "timestamp": 18.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 552,
+      "timestamp": 19.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 554,
+      "timestamp": 19.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 556,
+      "timestamp": 19.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 558,
+      "timestamp": 19.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 560,
+      "timestamp": 19.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 562,
+      "timestamp": 19.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 564,
+      "timestamp": 19.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 566,
+      "timestamp": 19.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 568,
+      "timestamp": 19.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 570,
+      "timestamp": 19.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 572,
+      "timestamp": 19.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 574,
+      "timestamp": 19.79,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 576,
+      "timestamp": 19.86,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 578,
+      "timestamp": 19.93,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 580,
+      "timestamp": 20.0,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 582,
+      "timestamp": 20.07,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 584,
+      "timestamp": 20.14,
+      "lanes": {
+        "north": 6,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 586,
+      "timestamp": 20.21,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 588,
+      "timestamp": 20.28,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 590,
+      "timestamp": 20.34,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 592,
+      "timestamp": 20.41,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 594,
+      "timestamp": 20.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 596,
+      "timestamp": 20.55,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 598,
+      "timestamp": 20.62,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 600,
+      "timestamp": 20.69,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 602,
+      "timestamp": 20.76,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 604,
+      "timestamp": 20.83,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 606,
+      "timestamp": 20.9,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 608,
+      "timestamp": 20.97,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 610,
+      "timestamp": 21.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 612,
+      "timestamp": 21.1,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 614,
+      "timestamp": 21.17,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 616,
+      "timestamp": 21.24,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 618,
+      "timestamp": 21.31,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 620,
+      "timestamp": 21.38,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 622,
+      "timestamp": 21.45,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 624,
+      "timestamp": 21.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 8,
+        "east": 7
+      }
+    },
+    {
+      "frame": 626,
+      "timestamp": 21.59,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 628,
+      "timestamp": 21.66,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 630,
+      "timestamp": 21.72,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 632,
+      "timestamp": 21.79,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 634,
+      "timestamp": 21.86,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 636,
+      "timestamp": 21.93,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 638,
+      "timestamp": 22.0,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 640,
+      "timestamp": 22.07,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 642,
+      "timestamp": 22.14,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 644,
+      "timestamp": 22.21,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 646,
+      "timestamp": 22.28,
+      "lanes": {
+        "north": 4,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 648,
+      "timestamp": 22.34,
+      "lanes": {
+        "north": 4,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 650,
+      "timestamp": 22.41,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 652,
+      "timestamp": 22.48,
+      "lanes": {
+        "north": 5,
+        "south": 6,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 654,
+      "timestamp": 22.55,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 656,
+      "timestamp": 22.62,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 658,
+      "timestamp": 22.69,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 660,
+      "timestamp": 22.76,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 662,
+      "timestamp": 22.83,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 664,
+      "timestamp": 22.9,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 666,
+      "timestamp": 22.97,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 668,
+      "timestamp": 23.03,
+      "lanes": {
+        "north": 4,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 670,
+      "timestamp": 23.1,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 672,
+      "timestamp": 23.17,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 674,
+      "timestamp": 23.24,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 676,
+      "timestamp": 23.31,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 678,
+      "timestamp": 23.38,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 680,
+      "timestamp": 23.45,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 682,
+      "timestamp": 23.52,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 684,
+      "timestamp": 23.59,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 686,
+      "timestamp": 23.66,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 688,
+      "timestamp": 23.72,
+      "lanes": {
+        "north": 4,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 690,
+      "timestamp": 23.79,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 692,
+      "timestamp": 23.86,
+      "lanes": {
+        "north": 4,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 694,
+      "timestamp": 23.93,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 696,
+      "timestamp": 24.0,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 698,
+      "timestamp": 24.07,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 700,
+      "timestamp": 24.14,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 702,
+      "timestamp": 24.21,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 704,
+      "timestamp": 24.28,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 706,
+      "timestamp": 24.34,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 708,
+      "timestamp": 24.41,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 710,
+      "timestamp": 24.48,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 712,
+      "timestamp": 24.55,
+      "lanes": {
+        "north": 4,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 714,
+      "timestamp": 24.62,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 7,
+        "east": 7
+      }
+    },
+    {
+      "frame": 716,
+      "timestamp": 24.69,
+      "lanes": {
+        "north": 5,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 718,
+      "timestamp": 24.76,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 720,
+      "timestamp": 24.83,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 722,
+      "timestamp": 24.9,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 724,
+      "timestamp": 24.97,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 726,
+      "timestamp": 25.03,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 728,
+      "timestamp": 25.1,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 730,
+      "timestamp": 25.17,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 732,
+      "timestamp": 25.24,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 734,
+      "timestamp": 25.31,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 736,
+      "timestamp": 25.38,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 738,
+      "timestamp": 25.45,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 740,
+      "timestamp": 25.52,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 742,
+      "timestamp": 25.59,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 744,
+      "timestamp": 25.66,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 746,
+      "timestamp": 25.72,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 748,
+      "timestamp": 25.79,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 750,
+      "timestamp": 25.86,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 752,
+      "timestamp": 25.93,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 754,
+      "timestamp": 26.0,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 756,
+      "timestamp": 26.07,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 758,
+      "timestamp": 26.14,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 760,
+      "timestamp": 26.21,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 6,
+        "east": 7
+      }
+    },
+    {
+      "frame": 762,
+      "timestamp": 26.28,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 764,
+      "timestamp": 26.34,
+      "lanes": {
+        "north": 3,
+        "south": 5,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 766,
+      "timestamp": 26.41,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 768,
+      "timestamp": 26.48,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 770,
+      "timestamp": 26.55,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 772,
+      "timestamp": 26.62,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 774,
+      "timestamp": 26.69,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 776,
+      "timestamp": 26.76,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 778,
+      "timestamp": 26.83,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 780,
+      "timestamp": 26.9,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 782,
+      "timestamp": 26.97,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 784,
+      "timestamp": 27.03,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 786,
+      "timestamp": 27.1,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 788,
+      "timestamp": 27.17,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 790,
+      "timestamp": 27.24,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 792,
+      "timestamp": 27.31,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 794,
+      "timestamp": 27.38,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 796,
+      "timestamp": 27.45,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 798,
+      "timestamp": 27.52,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 800,
+      "timestamp": 27.59,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 802,
+      "timestamp": 27.66,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 5,
+        "east": 7
+      }
+    },
+    {
+      "frame": 804,
+      "timestamp": 27.72,
+      "lanes": {
+        "north": 3,
+        "south": 6,
+        "west": 4,
+        "east": 7
+      }
+    }
+  ]
+}
