@@ -13,7 +13,7 @@ Camera sees traffic → software decides which road gets green and for how long 
 | `vision/` | YOLO vehicle detection and counting on traffic video | Vision Lead |
 | `controller/` | Rule-based controller and RL agent, connected to SUMO via TraCI | Controller Lead |
 | `evaluation/` | Comparison scripts, charts, results | Evaluation & Pitch Lead |
-| `data/` | Small sample files only (large videos go on the shared Drive link) | Everyone |
+| `data/` | Sample data, videos, and model weights (large files are stored with Git LFS) | Everyone |
 | `docs/` | Data format spec, notes, pitch material | Everyone |
 
 ## How the parts connect
@@ -25,11 +25,12 @@ The agreed data format is in `docs/data_format.md`:
 ```
 
 ## Getting started
-1. Install Python 3.10+ and Git
-2. Clone the repo: `git clone <repo-url>`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Install SUMO from https://sumo.dlr.de/docs/Downloads.php and make sure `sumo` runs in your terminal
-5. Work only in your own role's folder
+1. Install Python 3.10+, Git, and [Git LFS](https://git-lfs.com/)
+2. Run `git lfs install`
+3. Clone the repo: `git clone <repo-url>`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Install SUMO from https://sumo.dlr.de/docs/Downloads.php and make sure `sumo` runs in your terminal
+6. Work only in your own role's folder
 
 ## How to contribute
 ```bash
@@ -46,7 +47,7 @@ Then open a Pull Request on GitHub. A teammate reviews it and merges it. Never p
 ## Rules
 - Pull before you start work at any time
 - Keep commits small, with clear messages
-- Large files (videos, models) go on the shared Drive link, not in git
+- Large files (videos, models) must be tracked with Git LFS; install Git LFS before cloning or pulling
 - Stuck? Ask in the group chat before running risky commands like `git push --force`
 
 ## Team
