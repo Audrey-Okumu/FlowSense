@@ -1,0 +1,7 @@
+scenario,controller,seeds,vehicles_finished,avg_wait_s,max_wait_s,avg_time_loss_s,avg_total_queue,max_single_road_queue
+normal,fixed,3,1968,18.8,66.33,27.39,9.92,15.33
+normal,flowsense,3,1975.33,2.77,32.0,9.82,1.29,6.67
+rush_hour,fixed,3,2482,27.75,262.33,40.03,18.45,38.67
+rush_hour,flowsense,3,2486,17.43,128.67,37.1,11.16,24.67
+uneven,fixed,3,2008,22.85,134.33,33.29,12.33,25.67
+uneven,flowsense,3,2020.33,3.61,73.67,10.6,1.58,8.33
