@@ -1,0 +1,14 @@
+<configuration>
+  <input>
+    <net-file value="intersection.net.xml"/>
+    <route-files value="routes_normal.rou.xml"/>
+    <additional-files value="scenery.add.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="3600"/>
+  </time>
+  <processing>
+    <time-to-teleport value="-1"/>
+  </processing>
+</configuration>

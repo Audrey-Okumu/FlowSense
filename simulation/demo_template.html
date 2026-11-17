@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>FlowSense – adaptive traffic signals</title>
+<style>
+:root{--bg:#f3f5f7;--fg:#14202b;--card:#fff;--mut:#5d6b78;--bad:#d64545;--good:#1f9d55;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e141a;--fg:#e8eef3;--card:#18212a;--mut:#93a3b1;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#0e141a;--fg:#e8eef3;--card:#18212a;--mut:#93a3b1;color-scheme:dark}
+html{height:100%}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,Segoe UI,Roboto,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:18px 16px 28px}h1{margin:0;font-size:28px}h1 span{color:var(--good)}.sub{color:var(--mut);margin:4px 0 14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:14px;padding:10px;box-shadow:0 1px 4px #0002}.card h2{margin:2px 4px 8px;font-size:15px;display:flex;justify-content:space-between}
+canvas{width:100%;height:auto;border-radius:10px;display:block}.chips{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.chip{flex:1;min-width:90px;background:var(--bg);border-radius:10px;padding:6px 10px}.chip b{display:block;font-size:22px}.chip small{color:var(--mut)}
+.bad b{color:var(--bad)}.good b{color:var(--good)}.ctl{display:flex;gap:8px;align-items:center;margin:12px 0}.ctl input{flex:1}
+button{border:0;border-radius:8px;padding:7px 12px;background:var(--fg);color:var(--bg);font-weight:600;cursor:pointer}button.on{outline:2px solid var(--good)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}@media(max-width:760px){.stats{grid-template-columns:1fr}}
+.stats .card b{font-size:30px;color:var(--good)}.stats p{margin:2px 0;color:var(--mut)}.foot{color:var(--mut);font-size:12.5px;margin-top:14px}
+</style></head><body><main>
+<h1>Flow<span>Sense</span></h1>
+<div class="sub">Same junction, same traffic, same minute – one light on a timer, one that watches the queues. Replay of a SUMO simulation, uneven rush‑hour demand.</div>
+<div class="grid"><div class="card"><h2>Today: fixed timer <span id="p0"></span></h2><canvas id="c0" width="640" height="500"></canvas>
+<div class="chips bad"><div class="chip"><b id="q0">0</b><small>vehicles waiting now</small></div><div class="chip"><b id="m0">0</b><small>longest queue so far</small></div></div></div>
+<div class="card"><h2>FlowSense: adaptive <span id="p1"></span></h2><canvas id="c1" width="640" height="500"></canvas>
+<div class="chips good"><div class="chip"><b id="q1">0</b><small>vehicles waiting now</small></div><div class="chip"><b id="m1">0</b><small>longest queue so far</small></div></div></div></div>
+<div class="card" style="margin-top:12px"><h2>Vehicles waiting over time <span style="color:var(--mut)">red: timer · green: FlowSense</span></h2><canvas id="ch" width="1200" height="150"></canvas></div>
+<div class="ctl"><button id="pl">Pause</button><button data-s="1" class="on">1×</button><button data-s="3">3×</button><button data-s="6">6×</button><input id="sc" type="range" min="0" max="1000" value="0"><span id="tt"></span></div>
+<div class="stats" id="st"></div>
+<div class="foot">Results are averages of 3 random seeds over one simulated hour at one junction (3 lanes in, left‑hand traffic, mixed cars, matatus, boda‑bodas, trucks and buses). Simulation, not a field trial: the next step is a pilot with real camera data.</div>
+</main><script>
+const D=/*DATA*/null,$=s=>document.querySelector(s),sum=a=>a.reduce((x,y)=>x+y,0);
+const F=[D.fixed,D.flowsense],C=[$('#c0'),$('#c1')],X=C.map(c=>c.getContext('2d')),t0=F[0][0].t,T=F[0].length-1;
+let t=0,play=true,sp=1,last=0;const mx=[0,0];
+function lay(x,a,col,dash){x.strokeStyle=col;x.setLineDash(dash||[]);for(const it of a){x.lineWidth=it.w;x.beginPath();it.p.forEach((q,i)=>i?x.lineTo(q[0],q[1]):x.moveTo(q[0],q[1]));x.stroke()}x.setLineDash([])}
+function draw(k){const x=X[k],f=F[k],c=C[k],i=Math.min(T-1,Math.floor(t)),a=f[i],b=f[i+1],u=t-i;
+x.setTransform(1,0,0,1,0,0);x.fillStyle='#1b3a26';x.fillRect(0,0,c.width,c.height);x.setTransform(2.3,0,0,-2.3,c.width/2,c.height/2);x.lineJoin='round';
+lay(x,D.net.side,'#8a8f96');lay(x,D.net.road,'#252a31');lay(x,D.net.cross,'#e9edf2',[0.7,0.7]);
+D.net.links.forEach((l,j)=>{const s=a.s[D.net.vi[j]];x.fillStyle=s=='G'||s=='g'?'#2ee26b':s=='y'?'#ffd23f':'#ff4d4d';x.shadowColor=x.fillStyle;x.shadowBlur=8;x.beginPath();x.arc(l[0],l[1],1.3,0,7);x.fill()});x.shadowBlur=0;
+const mb=new Map(b.v.map(v=>[v[0],v]));for(const v of a.v){const w=mb.get(v[0]);if(!w)continue;const ty=D.types[v[4]]||['',[200,200,200],4.5,1.8];
+x.save();x.translate(v[1]+(w[1]-v[1])*u,v[2]+(w[2]-v[2])*u);x.rotate(-v[3]*Math.PI/180);x.fillStyle='rgb('+ty[1]+')';x.fillRect(-ty[3]/2,-ty[2]/2,ty[3],ty[2]);x.fillStyle='#0008';x.fillRect(-ty[3]/2+.2,ty[2]/2-1.4,ty[3]-.4,.9);x.restore()}
+const q=sum(a.q);mx[k]=Math.max(mx[k],q);$('#q'+k).textContent=q;$('#m'+k).textContent=mx[k]}
+function chart(){const c=$('#ch'),x=c.getContext('2d'),W=c.width,H=c.height,m=Math.max(5,...F.map(f=>Math.max(...f.map(r=>sum(r.q)))));x.clearRect(0,0,W,H);
+F.forEach((f,k)=>{x.strokeStyle=k?'#1f9d55':'#d64545';x.lineWidth=2.5;x.beginPath();f.forEach((r,i)=>{const px=i/T*W,py=H-6-sum(r.q)/m*(H-14);i?x.lineTo(px,py):x.moveTo(px,py)});x.stroke()});
+x.strokeStyle='#8899aa';x.lineWidth=1.5;x.beginPath();x.moveTo(t/T*W,0);x.lineTo(t/T*W,H);x.stroke()}
+function tick(n){if(play){t+=(n-last)/1000*sp*5;if(t>=T){t=0;mx[0]=mx[1]=0}}last=n;draw(0);draw(1);chart();$('#sc').value=t/T*1000;$('#tt').textContent=Math.round(t0+t)+' s';requestAnimationFrame(tick)}
+$('#pl').onclick=e=>{play=!play;e.target.textContent=play?'Pause':'Play'};$('#sc').oninput=e=>{t=e.target.value/1000*T;mx[0]=mx[1]=0};
+document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{sp=+b.dataset.s;document.querySelectorAll('[data-s]').forEach(o=>o.classList.toggle('on',o==b))});
+const nm={normal:'Normal traffic',rush_hour:'Rush hour',uneven:'Uneven demand'};let h='';
+for(const s of ['normal','rush_hour','uneven']){const a=D.stats.find(r=>r.scenario==s&&r.controller=='fixed'),b=D.stats.find(r=>r.scenario==s&&r.controller=='flowsense');
+h+='<div class="card"><p>'+nm[s]+'</p><b>−'+Math.round((1-b.avg_wait_s/a.avg_wait_s)*100)+'%</b> average wait<p>'+a.avg_wait_s.toFixed(1)+' s → '+b.avg_wait_s.toFixed(1)+' s</p><p>Longest wait '+Math.round(a.max_wait_s)+' s → '+Math.round(b.max_wait_s)+' s</p></div>'}
+$('#st').innerHTML=h;requestAnimationFrame(tick);
+</script></body></html>

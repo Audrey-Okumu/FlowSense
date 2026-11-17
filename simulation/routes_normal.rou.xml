@@ -1,0 +1,37 @@
+<routes>
+  <vTypeDistribution id="mix">
+    <vType id="car_blue" vClass="passenger" guiShape="passenger/hatchback" length="4.3" maxSpeed="13.9" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="2.6" decel="4.5" sigma="0.5" color="40,110,200" probability="0.14"/>
+    <vType id="car_white" vClass="passenger" guiShape="passenger/sedan" length="4.6" maxSpeed="13.9" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="2.6" decel="4.5" sigma="0.5" color="235,235,235" probability="0.15"/>
+    <vType id="car_silver" vClass="passenger" guiShape="passenger/hatchback" length="4.3" maxSpeed="13.9" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="2.6" decel="4.5" sigma="0.5" color="175,178,185" probability="0.13"/>
+    <vType id="car_red" vClass="passenger" guiShape="passenger/sedan" length="4.6" maxSpeed="13.9" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="2.6" decel="4.5" sigma="0.5" color="190,40,40" probability="0.07"/>
+    <vType id="car_black" vClass="passenger" guiShape="passenger/wagon" length="4.8" maxSpeed="13.9" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="2.6" decel="4.5" sigma="0.5" color="35,35,40" probability="0.06"/>
+    <vType id="matatu" vClass="bus" guiShape="passenger/van" length="6.0" maxSpeed="12.5" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="2.0" decel="4.0" sigma="0.5" color="245,200,20" probability="0.15"/>
+    <vType id="boda" vClass="motorcycle" guiShape="motorcycle" length="2.2" maxSpeed="13.9" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="3.5" decel="5.0" sigma="0.5" color="220,60,120" probability="0.15"/>
+    <vType id="truck" vClass="truck" guiShape="delivery" length="7.5" maxSpeed="11.0" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="1.6" decel="3.5" sigma="0.5" color="130,90,60" probability="0.1"/>
+    <vType id="bus" vClass="bus" guiShape="bus" length="12.0" maxSpeed="11.0" speedFactor="normc(1.0,0.12,0.7,1.3)" accel="1.4" decel="3.5" sigma="0.5" color="30,150,90" probability="0.05"/>
+  </vTypeDistribution>
+  <route id="N_S" edges="N_in S_out"/>
+  <route id="N_E" edges="N_in E_out"/>
+  <route id="N_W" edges="N_in W_out"/>
+  <route id="S_N" edges="S_in N_out"/>
+  <route id="S_E" edges="S_in E_out"/>
+  <route id="S_W" edges="S_in W_out"/>
+  <route id="E_W" edges="E_in W_out"/>
+  <route id="E_N" edges="E_in N_out"/>
+  <route id="E_S" edges="E_in S_out"/>
+  <route id="W_E" edges="W_in E_out"/>
+  <route id="W_N" edges="W_in N_out"/>
+  <route id="W_S" edges="W_in S_out"/>
+  <flow id="f_N_S_0" route="N_S" type="mix" begin="0" end="3600" probability="0.08333" departLane="best" departSpeed="max"/>
+  <flow id="f_N_E_0" route="N_E" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+  <flow id="f_N_W_0" route="N_W" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+  <flow id="f_S_N_0" route="S_N" type="mix" begin="0" end="3600" probability="0.08333" departLane="best" departSpeed="max"/>
+  <flow id="f_S_E_0" route="S_E" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+  <flow id="f_S_W_0" route="S_W" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+  <flow id="f_E_W_0" route="E_W" type="mix" begin="0" end="3600" probability="0.08333" departLane="best" departSpeed="max"/>
+  <flow id="f_E_N_0" route="E_N" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+  <flow id="f_E_S_0" route="E_S" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+  <flow id="f_W_E_0" route="W_E" type="mix" begin="0" end="3600" probability="0.08333" departLane="best" departSpeed="max"/>
+  <flow id="f_W_N_0" route="W_N" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+  <flow id="f_W_S_0" route="W_S" type="mix" begin="0" end="3600" probability="0.02778" departLane="best" departSpeed="max"/>
+</routes>
