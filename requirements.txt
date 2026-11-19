@@ -1,4 +1,4 @@
 gdown
-supervision>=0.20.0
+supervision>=0.26.1,<0.27
 tqdm
 ultralytics

@@ -140,7 +140,10 @@ class VideoProcessor:
         annotated_frame = self.label_annotator.annotate(annotated_frame, detections, labels)
 
         for i, zone_out in enumerate(self.zones_out):
-            zone_center = sv.get_polygon_center(polygon=zone_out.polygon)
+            zone_center = sv.Point(
+                x=np.mean(zone_out.polygon[:, 0]),
+                y=np.mean(zone_out.polygon[:, 1]),
+            )
             if i in self.detections_manager.counts:
                 for j, zone_in_id in enumerate(self.detections_manager.counts[i]):
                     count = len(self.detections_manager.counts[i][zone_in_id])
@@ -190,7 +193,3 @@ class VideoProcessor:
 if __name__ == "__main__":
     processor = VideoProcessor()
     processor.process_video()
-
-
-if __name__ == '__main__':
-    VideoProcessor().process_video()
