@@ -1,0 +1,201 @@
+<additional>
+  <poly id="b1" type="building" color="178,164,150" fill="1" layer="-10" shape="-62.1,-52.0 -33.0,-52.0 -33.0,-29.0 -62.1,-29.0"/>
+  <poly id="b2" type="building" color="178,164,150" fill="1" layer="-10" shape="-101.6,-54.8 -67.8,-54.8 -67.8,-29.0 -101.6,-29.0"/>
+  <poly id="b3" type="building" color="188,170,150" fill="1" layer="-10" shape="-141.5,-51.1 -114.8,-51.1 -114.8,-29.0 -141.5,-29.0"/>
+  <poly id="b4" type="building" color="196,178,160" fill="1" layer="-10" shape="-171.1,-55.5 -147.1,-55.5 -147.1,-29.0 -171.1,-29.0"/>
+  <poly id="b5" type="building" color="178,164,150" fill="1" layer="-10" shape="-220.5,-57.6 -184.6,-57.6 -184.6,-29.0 -220.5,-29.0"/>
+  <poly id="b6" type="building" color="178,164,150" fill="1" layer="-10" shape="-261.4,-62.7 -230.7,-62.7 -230.7,-29.0 -261.4,-29.0"/>
+  <poly id="b7" type="building" color="196,178,160" fill="1" layer="-10" shape="-296.4,-55.4 -271.4,-55.4 -271.4,-29.0 -296.4,-29.0"/>
+  <poly id="b8" type="building" color="196,178,160" fill="1" layer="-10" shape="-67.3,-106.9 -33.0,-106.9 -33.0,-73.0 -67.3,-73.0"/>
+  <poly id="b9" type="building" color="196,178,160" fill="1" layer="-10" shape="-113.6,-102.8 -77.6,-102.8 -77.6,-73.0 -113.6,-73.0"/>
+  <poly id="b10" type="building" color="188,170,150" fill="1" layer="-10" shape="-159.3,-104.5 -123.7,-104.5 -123.7,-73.0 -159.3,-73.0"/>
+  <poly id="b11" type="building" color="150,160,170" fill="1" layer="-10" shape="-203.6,-110.0 -171.3,-110.0 -171.3,-73.0 -203.6,-73.0"/>
+  <poly id="b12" type="building" color="205,190,170" fill="1" layer="-10" shape="-250.7,-107.1 -211.2,-107.1 -211.2,-73.0 -250.7,-73.0"/>
+  <poly id="b13" type="building" color="150,160,170" fill="1" layer="-10" shape="-285.1,-104.4 -256.5,-104.4 -256.5,-73.0 -285.1,-73.0"/>
+  <poly id="b14" type="building" color="196,178,160" fill="1" layer="-10" shape="-62.7,-121.3 -29.0,-121.3 -29.0,-93.0 -62.7,-93.0"/>
+  <poly id="b15" type="building" color="214,200,182" fill="1" layer="-10" shape="-54.4,-156.6 -29.0,-156.6 -29.0,-130.9 -54.4,-130.9"/>
+  <poly id="b16" type="building" color="150,160,170" fill="1" layer="-10" shape="-51.0,-208.5 -29.0,-208.5 -29.0,-165.4 -51.0,-165.4"/>
+  <poly id="b17" type="building" color="214,200,182" fill="1" layer="-10" shape="-56.5,-246.3 -29.0,-246.3 -29.0,-216.6 -56.5,-216.6"/>
+  <poly id="b18" type="building" color="196,178,160" fill="1" layer="-10" shape="-53.5,-276.0 -29.0,-276.0 -29.0,-251.9 -53.5,-251.9"/>
+  <poly id="b19" type="building" color="214,200,182" fill="1" layer="-10" shape="-70.4,29.0 -33.0,29.0 -33.0,58.4 -70.4,58.4"/>
+  <poly id="b20" type="building" color="178,164,150" fill="1" layer="-10" shape="-108.5,29.0 -78.0,29.0 -78.0,58.7 -108.5,58.7"/>
+  <poly id="b21" type="building" color="214,200,182" fill="1" layer="-10" shape="-151.8,29.0 -121.9,29.0 -121.9,57.9 -151.8,57.9"/>
+  <poly id="b22" type="building" color="205,190,170" fill="1" layer="-10" shape="-196.2,29.0 -157.3,29.0 -157.3,51.7 -196.2,51.7"/>
+  <poly id="b23" type="building" color="160,150,142" fill="1" layer="-10" shape="-247.0,29.0 -204.8,29.0 -204.8,56.5 -247.0,56.5"/>
+  <poly id="b24" type="building" color="188,170,150" fill="1" layer="-10" shape="-290.1,29.0 -256.0,29.0 -256.0,61.5 -290.1,61.5"/>
+  <poly id="b25" type="building" color="150,160,170" fill="1" layer="-10" shape="-61.1,73.0 -33.0,73.0 -33.0,103.4 -61.1,103.4"/>
+  <poly id="b26" type="building" color="196,178,160" fill="1" layer="-10" shape="-102.6,73.0 -72.3,73.0 -72.3,101.0 -102.6,101.0"/>
+  <poly id="b27" type="building" color="214,200,182" fill="1" layer="-10" shape="-136.3,73.0 -109.2,73.0 -109.2,101.0 -136.3,101.0"/>
+  <poly id="b28" type="building" color="160,150,142" fill="1" layer="-10" shape="-174.8,73.0 -148.8,73.0 -148.8,101.7 -174.8,101.7"/>
+  <poly id="b29" type="building" color="160,150,142" fill="1" layer="-10" shape="-213.7,73.0 -183.6,73.0 -183.6,105.4 -213.7,105.4"/>
+  <poly id="b30" type="building" color="178,164,150" fill="1" layer="-10" shape="-258.3,73.0 -224.9,73.0 -224.9,106.0 -258.3,106.0"/>
+  <poly id="b31" type="building" color="188,170,150" fill="1" layer="-10" shape="-308.5,73.0 -267.4,73.0 -267.4,110.4 -308.5,110.4"/>
+  <poly id="b32" type="building" color="188,170,150" fill="1" layer="-10" shape="-56.3,93.0 -29.0,93.0 -29.0,123.7 -56.3,123.7"/>
+  <poly id="b33" type="building" color="160,150,142" fill="1" layer="-10" shape="-52.7,129.2 -29.0,129.2 -29.0,152.7 -52.7,152.7"/>
+  <poly id="b34" type="building" color="160,150,142" fill="1" layer="-10" shape="-51.3,158.7 -29.0,158.7 -29.0,193.9 -51.3,193.9"/>
+  <poly id="b35" type="building" color="196,178,160" fill="1" layer="-10" shape="-58.0,203.7 -29.0,203.7 -29.0,246.6 -58.0,246.6"/>
+  <poly id="b36" type="building" color="170,128,108" fill="1" layer="-10" shape="-51.9,259.5 -29.0,259.5 -29.0,295.0 -51.9,295.0"/>
+  <poly id="b37" type="building" color="196,178,160" fill="1" layer="-10" shape="33.0,-56.2 68.3,-56.2 68.3,-29.0 33.0,-29.0"/>
+  <poly id="b38" type="building" color="214,200,182" fill="1" layer="-10" shape="80.9,-56.1 124.7,-56.1 124.7,-29.0 80.9,-29.0"/>
+  <poly id="b39" type="building" color="170,128,108" fill="1" layer="-10" shape="132.5,-59.7 157.7,-59.7 157.7,-29.0 132.5,-29.0"/>
+  <poly id="b40" type="building" color="205,190,170" fill="1" layer="-10" shape="167.0,-56.7 204.2,-56.7 204.2,-29.0 167.0,-29.0"/>
+  <poly id="b41" type="building" color="178,164,150" fill="1" layer="-10" shape="217.8,-51.9 251.4,-51.9 251.4,-29.0 217.8,-29.0"/>
+  <poly id="b42" type="building" color="196,178,160" fill="1" layer="-10" shape="263.3,-58.4 291.8,-58.4 291.8,-29.0 263.3,-29.0"/>
+  <poly id="b43" type="building" color="160,150,142" fill="1" layer="-10" shape="33.0,-102.8 60.7,-102.8 60.7,-73.0 33.0,-73.0"/>
+  <poly id="b44" type="building" color="150,160,170" fill="1" layer="-10" shape="68.9,-105.0 95.8,-105.0 95.8,-73.0 68.9,-73.0"/>
+  <poly id="b45" type="building" color="205,190,170" fill="1" layer="-10" shape="106.6,-108.2 142.1,-108.2 142.1,-73.0 106.6,-73.0"/>
+  <poly id="b46" type="building" color="205,190,170" fill="1" layer="-10" shape="154.3,-107.6 194.3,-107.6 194.3,-73.0 154.3,-73.0"/>
+  <poly id="b47" type="building" color="178,164,150" fill="1" layer="-10" shape="201.1,-107.5 234.0,-107.5 234.0,-73.0 201.1,-73.0"/>
+  <poly id="b48" type="building" color="150,160,170" fill="1" layer="-10" shape="246.1,-100.5 278.5,-100.5 278.5,-73.0 246.1,-73.0"/>
+  <poly id="b49" type="building" color="150,160,170" fill="1" layer="-10" shape="29.0,-135.6 62.8,-135.6 62.8,-93.0 29.0,-93.0"/>
+  <poly id="b50" type="building" color="150,160,170" fill="1" layer="-10" shape="29.0,-165.6 56.1,-165.6 56.1,-141.3 29.0,-141.3"/>
+  <poly id="b51" type="building" color="178,164,150" fill="1" layer="-10" shape="29.0,-208.2 61.7,-208.2 61.7,-172.4 29.0,-172.4"/>
+  <poly id="b52" type="building" color="196,178,160" fill="1" layer="-10" shape="29.0,-253.8 60.4,-253.8 60.4,-217.5 29.0,-217.5"/>
+  <poly id="b53" type="building" color="205,190,170" fill="1" layer="-10" shape="29.0,-291.0 55.1,-291.0 55.1,-266.3 29.0,-266.3"/>
+  <poly id="b54" type="building" color="150,160,170" fill="1" layer="-10" shape="33.0,29.0 58.9,29.0 58.9,60.3 33.0,60.3"/>
+  <poly id="b55" type="building" color="214,200,182" fill="1" layer="-10" shape="64.7,29.0 107.5,29.0 107.5,59.4 64.7,59.4"/>
+  <poly id="b56" type="building" color="160,150,142" fill="1" layer="-10" shape="116.1,29.0 159.0,29.0 159.0,59.4 116.1,59.4"/>
+  <poly id="b57" type="building" color="214,200,182" fill="1" layer="-10" shape="172.9,29.0 195.5,29.0 195.5,57.7 172.9,57.7"/>
+  <poly id="b58" type="building" color="214,200,182" fill="1" layer="-10" shape="207.8,29.0 233.0,29.0 233.0,60.7 207.8,60.7"/>
+  <poly id="b59" type="building" color="160,150,142" fill="1" layer="-10" shape="243.9,29.0 273.6,29.0 273.6,57.1 243.9,57.1"/>
+  <poly id="b60" type="building" color="196,178,160" fill="1" layer="-10" shape="278.8,29.0 318.4,29.0 318.4,59.4 278.8,59.4"/>
+  <poly id="b61" type="building" color="205,190,170" fill="1" layer="-10" shape="33.0,73.0 75.5,73.0 75.5,103.6 33.0,103.6"/>
+  <poly id="b62" type="building" color="170,128,108" fill="1" layer="-10" shape="88.0,73.0 114.6,73.0 114.6,101.3 88.0,101.3"/>
+  <poly id="b63" type="building" color="188,170,150" fill="1" layer="-10" shape="124.1,73.0 162.9,73.0 162.9,102.2 124.1,102.2"/>
+  <poly id="b64" type="building" color="214,200,182" fill="1" layer="-10" shape="175.4,73.0 198.8,73.0 198.8,107.6 175.4,107.6"/>
+  <poly id="b65" type="building" color="160,150,142" fill="1" layer="-10" shape="209.7,73.0 249.7,73.0 249.7,104.7 209.7,104.7"/>
+  <poly id="b66" type="building" color="214,200,182" fill="1" layer="-10" shape="259.5,73.0 293.0,73.0 293.0,98.2 259.5,98.2"/>
+  <poly id="b67" type="building" color="160,150,142" fill="1" layer="-10" shape="29.0,93.0 60.1,93.0 60.1,128.4 29.0,128.4"/>
+  <poly id="b68" type="building" color="178,164,150" fill="1" layer="-10" shape="29.0,134.9 59.4,134.9 59.4,167.4 29.0,167.4"/>
+  <poly id="b69" type="building" color="196,178,160" fill="1" layer="-10" shape="29.0,175.3 57.2,175.3 57.2,208.7 29.0,208.7"/>
+  <poly id="b70" type="building" color="178,164,150" fill="1" layer="-10" shape="29.0,221.6 52.5,221.6 52.5,244.9 29.0,244.9"/>
+  <poly id="b71" type="building" color="196,178,160" fill="1" layer="-10" shape="29.0,256.8 57.3,256.8 57.3,290.0 29.0,290.0"/>
+  <poi id="tree1" type="tree" color="44,104,50" x="-19.7" y="-280.0" width="7.5" height="7.5" layer="4"/>
+  <poi id="tree2" type="tree" color="64,132,64" x="-279.7" y="-19.4" width="7.4" height="7.4" layer="4"/>
+  <poi id="tree3" type="tree" color="44,104,50" x="-19.9" y="-261.0" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree4" type="tree" color="78,140,70" x="-260.9" y="-20.3" width="6.6" height="6.6" layer="4"/>
+  <poi id="tree5" type="tree" color="52,118,56" x="-18.8" y="-251.0" width="7.3" height="7.3" layer="4"/>
+  <poi id="tree6" type="tree" color="44,104,50" x="-248.6" y="-19.8" width="6.6" height="6.6" layer="4"/>
+  <poi id="tree7" type="tree" color="44,104,50" x="-20.1" y="-228.8" width="6.5" height="6.5" layer="4"/>
+  <poi id="tree8" type="tree" color="64,132,64" x="-228.9" y="-18.8" width="8.9" height="8.9" layer="4"/>
+  <poi id="tree9" type="tree" color="64,132,64" x="-20.0" y="-219.2" width="8.7" height="8.7" layer="4"/>
+  <poi id="tree10" type="tree" color="78,140,70" x="-213.3" y="-20.5" width="6.5" height="6.5" layer="4"/>
+  <poi id="tree11" type="tree" color="44,104,50" x="-20.5" y="-200.8" width="7.3" height="7.3" layer="4"/>
+  <poi id="tree12" type="tree" color="78,140,70" x="-198.2" y="-19.1" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree13" type="tree" color="44,104,50" x="-19.4" y="-187.9" width="7.0" height="7.0" layer="4"/>
+  <poi id="tree14" type="tree" color="64,132,64" x="-187.5" y="-19.5" width="9.0" height="9.0" layer="4"/>
+  <poi id="tree15" type="tree" color="52,118,56" x="-20.4" y="-171.2" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree16" type="tree" color="78,140,70" x="-170.5" y="-20.3" width="8.3" height="8.3" layer="4"/>
+  <poi id="tree17" type="tree" color="78,140,70" x="-20.2" y="-150.6" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree18" type="tree" color="44,104,50" x="-148.6" y="-18.8" width="7.7" height="7.7" layer="4"/>
+  <poi id="tree19" type="tree" color="78,140,70" x="-18.7" y="-139.5" width="8.1" height="8.1" layer="4"/>
+  <poi id="tree20" type="tree" color="52,118,56" x="-137.8" y="-20.3" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree21" type="tree" color="52,118,56" x="-20.1" y="-123.3" width="8.6" height="8.6" layer="4"/>
+  <poi id="tree22" type="tree" color="78,140,70" x="-123.0" y="-19.0" width="6.0" height="6.0" layer="4"/>
+  <poi id="tree23" type="tree" color="64,132,64" x="-20.4" y="-105.9" width="6.4" height="6.4" layer="4"/>
+  <poi id="tree24" type="tree" color="64,132,64" x="-100.2" y="-20.4" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree25" type="tree" color="64,132,64" x="-18.9" y="-89.5" width="6.9" height="6.9" layer="4"/>
+  <poi id="tree26" type="tree" color="44,104,50" x="-88.0" y="-19.1" width="6.5" height="6.5" layer="4"/>
+  <poi id="tree27" type="tree" color="52,118,56" x="-20.1" y="-68.0" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree28" type="tree" color="78,140,70" x="-71.6" y="-20.0" width="6.6" height="6.6" layer="4"/>
+  <poi id="tree29" type="tree" color="78,140,70" x="-19.0" y="-56.4" width="8.0" height="8.0" layer="4"/>
+  <poi id="tree30" type="tree" color="44,104,50" x="-55.6" y="-19.8" width="8.7" height="8.7" layer="4"/>
+  <poi id="tree31" type="tree" color="64,132,64" x="-19.9" y="-36.1" width="7.0" height="7.0" layer="4"/>
+  <poi id="tree32" type="tree" color="64,132,64" x="-41.2" y="-19.3" width="6.2" height="6.2" layer="4"/>
+  <poi id="tree33" type="tree" color="78,140,70" x="-18.5" y="41.0" width="8.6" height="8.6" layer="4"/>
+  <poi id="tree34" type="tree" color="44,104,50" x="36.7" y="-18.8" width="8.5" height="8.5" layer="4"/>
+  <poi id="tree35" type="tree" color="64,132,64" x="-19.7" y="57.5" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree36" type="tree" color="44,104,50" x="55.6" y="-18.8" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree37" type="tree" color="44,104,50" x="-20.4" y="72.4" width="6.7" height="6.7" layer="4"/>
+  <poi id="tree38" type="tree" color="52,118,56" x="69.5" y="-18.9" width="7.0" height="7.0" layer="4"/>
+  <poi id="tree39" type="tree" color="52,118,56" x="-19.4" y="88.0" width="6.6" height="6.6" layer="4"/>
+  <poi id="tree40" type="tree" color="52,118,56" x="90.5" y="-18.7" width="6.4" height="6.4" layer="4"/>
+  <poi id="tree41" type="tree" color="52,118,56" x="-19.3" y="102.4" width="7.9" height="7.9" layer="4"/>
+  <poi id="tree42" type="tree" color="78,140,70" x="104.2" y="-19.7" width="8.3" height="8.3" layer="4"/>
+  <poi id="tree43" type="tree" color="44,104,50" x="-20.0" y="121.8" width="7.5" height="7.5" layer="4"/>
+  <poi id="tree44" type="tree" color="78,140,70" x="121.1" y="-19.9" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree45" type="tree" color="52,118,56" x="-20.0" y="138.5" width="6.4" height="6.4" layer="4"/>
+  <poi id="tree46" type="tree" color="64,132,64" x="136.7" y="-20.2" width="8.7" height="8.7" layer="4"/>
+  <poi id="tree47" type="tree" color="52,118,56" x="-18.7" y="148.3" width="7.9" height="7.9" layer="4"/>
+  <poi id="tree48" type="tree" color="52,118,56" x="151.6" y="-19.3" width="6.2" height="6.2" layer="4"/>
+  <poi id="tree49" type="tree" color="52,118,56" x="-19.8" y="169.4" width="7.5" height="7.5" layer="4"/>
+  <poi id="tree50" type="tree" color="52,118,56" x="164.6" y="-19.4" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree51" type="tree" color="44,104,50" x="-19.8" y="180.5" width="8.2" height="8.2" layer="4"/>
+  <poi id="tree52" type="tree" color="64,132,64" x="186.8" y="-20.1" width="6.7" height="6.7" layer="4"/>
+  <poi id="tree53" type="tree" color="78,140,70" x="-19.0" y="201.2" width="7.4" height="7.4" layer="4"/>
+  <poi id="tree54" type="tree" color="52,118,56" x="203.3" y="-18.7" width="6.9" height="6.9" layer="4"/>
+  <poi id="tree55" type="tree" color="64,132,64" x="-19.7" y="217.1" width="6.2" height="6.2" layer="4"/>
+  <poi id="tree56" type="tree" color="64,132,64" x="217.2" y="-19.2" width="8.1" height="8.1" layer="4"/>
+  <poi id="tree57" type="tree" color="52,118,56" x="-18.5" y="228.5" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree58" type="tree" color="44,104,50" x="233.4" y="-19.9" width="6.9" height="6.9" layer="4"/>
+  <poi id="tree59" type="tree" color="64,132,64" x="-19.4" y="247.7" width="6.4" height="6.4" layer="4"/>
+  <poi id="tree60" type="tree" color="44,104,50" x="244.7" y="-19.1" width="7.4" height="7.4" layer="4"/>
+  <poi id="tree61" type="tree" color="78,140,70" x="-19.4" y="266.6" width="8.9" height="8.9" layer="4"/>
+  <poi id="tree62" type="tree" color="64,132,64" x="263.1" y="-20.5" width="8.7" height="8.7" layer="4"/>
+  <poi id="tree63" type="tree" color="44,104,50" x="-18.6" y="276.7" width="8.2" height="8.2" layer="4"/>
+  <poi id="tree64" type="tree" color="44,104,50" x="277.1" y="-20.4" width="8.5" height="8.5" layer="4"/>
+  <poi id="tree65" type="tree" color="78,140,70" x="20.3" y="-278.4" width="6.7" height="6.7" layer="4"/>
+  <poi id="tree66" type="tree" color="78,140,70" x="-282.7" y="19.3" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree67" type="tree" color="78,140,70" x="19.3" y="-262.2" width="7.2" height="7.2" layer="4"/>
+  <poi id="tree68" type="tree" color="44,104,50" x="-261.3" y="19.1" width="6.0" height="6.0" layer="4"/>
+  <poi id="tree69" type="tree" color="52,118,56" x="20.2" y="-251.0" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree70" type="tree" color="78,140,70" x="-249.7" y="20.3" width="7.1" height="7.1" layer="4"/>
+  <poi id="tree71" type="tree" color="78,140,70" x="19.3" y="-229.0" width="6.2" height="6.2" layer="4"/>
+  <poi id="tree72" type="tree" color="52,118,56" x="-229.2" y="20.0" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree73" type="tree" color="64,132,64" x="20.2" y="-217.7" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree74" type="tree" color="44,104,50" x="-216.5" y="20.4" width="6.9" height="6.9" layer="4"/>
+  <poi id="tree75" type="tree" color="78,140,70" x="20.1" y="-200.6" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree76" type="tree" color="52,118,56" x="-196.5" y="20.3" width="7.6" height="7.6" layer="4"/>
+  <poi id="tree77" type="tree" color="64,132,64" x="18.6" y="-182.1" width="7.4" height="7.4" layer="4"/>
+  <poi id="tree78" type="tree" color="64,132,64" x="-185.7" y="19.8" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree79" type="tree" color="44,104,50" x="18.8" y="-168.7" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree80" type="tree" color="64,132,64" x="-164.2" y="20.0" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree81" type="tree" color="64,132,64" x="19.1" y="-151.5" width="7.2" height="7.2" layer="4"/>
+  <poi id="tree82" type="tree" color="78,140,70" x="-155.4" y="19.8" width="7.5" height="7.5" layer="4"/>
+  <poi id="tree83" type="tree" color="78,140,70" x="19.6" y="-136.4" width="7.0" height="7.0" layer="4"/>
+  <poi id="tree84" type="tree" color="64,132,64" x="-135.6" y="19.4" width="6.7" height="6.7" layer="4"/>
+  <poi id="tree85" type="tree" color="44,104,50" x="19.2" y="-123.3" width="6.7" height="6.7" layer="4"/>
+  <poi id="tree86" type="tree" color="78,140,70" x="-122.4" y="20.1" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree87" type="tree" color="44,104,50" x="19.3" y="-102.0" width="6.6" height="6.6" layer="4"/>
+  <poi id="tree88" type="tree" color="44,104,50" x="-107.5" y="19.2" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree89" type="tree" color="64,132,64" x="18.8" y="-88.0" width="7.9" height="7.9" layer="4"/>
+  <poi id="tree90" type="tree" color="78,140,70" x="-84.8" y="18.7" width="7.2" height="7.2" layer="4"/>
+  <poi id="tree91" type="tree" color="52,118,56" x="19.4" y="-73.5" width="8.4" height="8.4" layer="4"/>
+  <poi id="tree92" type="tree" color="78,140,70" x="-72.6" y="18.8" width="8.3" height="8.3" layer="4"/>
+  <poi id="tree93" type="tree" color="78,140,70" x="20.4" y="-56.1" width="6.2" height="6.2" layer="4"/>
+  <poi id="tree94" type="tree" color="64,132,64" x="-58.0" y="20.4" width="6.3" height="6.3" layer="4"/>
+  <poi id="tree95" type="tree" color="78,140,70" x="18.8" y="-36.2" width="6.3" height="6.3" layer="4"/>
+  <poi id="tree96" type="tree" color="64,132,64" x="-37.8" y="18.7" width="6.0" height="6.0" layer="4"/>
+  <poi id="tree97" type="tree" color="44,104,50" x="19.0" y="43.4" width="7.9" height="7.9" layer="4"/>
+  <poi id="tree98" type="tree" color="78,140,70" x="41.0" y="20.4" width="7.6" height="7.6" layer="4"/>
+  <poi id="tree99" type="tree" color="64,132,64" x="19.9" y="52.9" width="6.2" height="6.2" layer="4"/>
+  <poi id="tree100" type="tree" color="52,118,56" x="53.8" y="19.3" width="7.8" height="7.8" layer="4"/>
+  <poi id="tree101" type="tree" color="44,104,50" x="19.6" y="76.0" width="6.8" height="6.8" layer="4"/>
+  <poi id="tree102" type="tree" color="64,132,64" x="75.1" y="19.8" width="7.4" height="7.4" layer="4"/>
+  <poi id="tree103" type="tree" color="44,104,50" x="19.6" y="84.2" width="7.2" height="7.2" layer="4"/>
+  <poi id="tree104" type="tree" color="78,140,70" x="85.6" y="18.6" width="8.7" height="8.7" layer="4"/>
+  <poi id="tree105" type="tree" color="44,104,50" x="18.7" y="101.8" width="7.3" height="7.3" layer="4"/>
+  <poi id="tree106" type="tree" color="78,140,70" x="100.3" y="19.0" width="7.0" height="7.0" layer="4"/>
+  <poi id="tree107" type="tree" color="44,104,50" x="19.2" y="119.2" width="6.0" height="6.0" layer="4"/>
+  <poi id="tree108" type="tree" color="64,132,64" x="120.0" y="20.0" width="6.6" height="6.6" layer="4"/>
+  <poi id="tree109" type="tree" color="64,132,64" x="19.1" y="138.6" width="6.7" height="6.7" layer="4"/>
+  <poi id="tree110" type="tree" color="78,140,70" x="139.1" y="19.0" width="6.3" height="6.3" layer="4"/>
+  <poi id="tree111" type="tree" color="52,118,56" x="19.7" y="155.2" width="7.5" height="7.5" layer="4"/>
+  <poi id="tree112" type="tree" color="64,132,64" x="149.2" y="20.4" width="7.2" height="7.2" layer="4"/>
+  <poi id="tree113" type="tree" color="52,118,56" x="18.5" y="168.8" width="7.2" height="7.2" layer="4"/>
+  <poi id="tree114" type="tree" color="44,104,50" x="167.6" y="18.9" width="8.1" height="8.1" layer="4"/>
+  <poi id="tree115" type="tree" color="44,104,50" x="20.0" y="188.0" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree116" type="tree" color="78,140,70" x="185.2" y="18.9" width="7.6" height="7.6" layer="4"/>
+  <poi id="tree117" type="tree" color="44,104,50" x="18.6" y="201.3" width="7.1" height="7.1" layer="4"/>
+  <poi id="tree118" type="tree" color="52,118,56" x="199.5" y="20.5" width="6.3" height="6.3" layer="4"/>
+  <poi id="tree119" type="tree" color="52,118,56" x="19.1" y="214.8" width="8.9" height="8.9" layer="4"/>
+  <poi id="tree120" type="tree" color="44,104,50" x="218.1" y="19.6" width="7.1" height="7.1" layer="4"/>
+  <poi id="tree121" type="tree" color="78,140,70" x="20.1" y="231.5" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree122" type="tree" color="44,104,50" x="232.3" y="18.9" width="7.3" height="7.3" layer="4"/>
+  <poi id="tree123" type="tree" color="78,140,70" x="19.2" y="251.2" width="6.1" height="6.1" layer="4"/>
+  <poi id="tree124" type="tree" color="78,140,70" x="249.0" y="19.0" width="7.2" height="7.2" layer="4"/>
+  <poi id="tree125" type="tree" color="44,104,50" x="18.6" y="260.5" width="8.8" height="8.8" layer="4"/>
+  <poi id="tree126" type="tree" color="44,104,50" x="260.5" y="18.9" width="7.8" height="7.8" layer="4"/>
+  <poi id="tree127" type="tree" color="44,104,50" x="19.0" y="283.7" width="7.9" height="7.9" layer="4"/>
+  <poi id="tree128" type="tree" color="44,104,50" x="281.5" y="20.0" width="8.8" height="8.8" layer="4"/>
+</additional>
