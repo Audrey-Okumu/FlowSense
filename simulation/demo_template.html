@@ -15,7 +15,9 @@ button{border:0;border-radius:8px;padding:7px 12px;background:var(--fg);color:va
 .stats .card b{font-size:30px;color:var(--good)}.stats p{margin:2px 0;color:var(--mut)}.foot{color:var(--mut);font-size:12.5px;margin-top:14px}
 </style></head><body><main>
 <h1>Flow<span>Sense</span></h1>
-<div class="sub">Same junction, same traffic, same minute – one light on a timer, one that watches the queues. Replay of a SUMO simulation, uneven rush‑hour demand.</div>
+<div class="ctl" id="tabs"><button data-k="normal">Normal traffic</button><button data-k="rush_hour">Rush hour</button><button data-k="uneven" class="on">Uneven demand</button></div>
+<div class="sub" id="sub">Same junction, same traffic, same minute – one light on a timer, one that watches the queues. </div>
+<div class="ctl" id="tabs"></div>
 <div class="grid"><div class="card"><h2>Today: fixed timer <span id="p0"></span></h2><canvas id="c0" width="640" height="500"></canvas>
 <div class="chips bad"><div class="chip"><b id="q0">0</b><small>vehicles waiting now</small></div><div class="chip"><b id="m0">0</b><small>longest queue so far</small></div></div></div>
 <div class="card"><h2>FlowSense: adaptive <span id="p1"></span></h2><canvas id="c1" width="640" height="500"></canvas>
@@ -26,14 +28,15 @@ button{border:0;border-radius:8px;padding:7px 12px;background:var(--fg);color:va
 <div class="foot">Results are averages of 3 random seeds over one simulated hour at one junction (3 lanes in, left‑hand traffic, mixed cars, matatus, boda‑bodas, trucks and buses). Simulation, not a field trial: the next step is a pilot with real camera data.</div>
 </main><script>
 const D=/*DATA*/null,$=s=>document.querySelector(s),sum=a=>a.reduce((x,y)=>x+y,0);
-const F=[D.fixed,D.flowsense],C=[$('#c0'),$('#c1')],X=C.map(c=>c.getContext('2d')),t0=F[0][0].t,T=F[0].length-1;
-let t=0,play=true,sp=1,last=0;const mx=[0,0];
+let S,F,TY,t0,T;const C=[$('#c0'),$('#c1')],X=C.map(c=>c.getContext('2d'));
+let t=0,play=true,sp=1,last=0;const mx=[0,0];const LB={normal:'Normal traffic',rush_hour:'Rush hour',uneven:'Uneven demand'};
+function setS(k){S=k;const s=D.scen[k];F=[s.fixed,s.flowsense];TY=s.types;t0=F[0][0].t;T=F[0].length-1;t=0;mx[0]=mx[1]=0;document.querySelectorAll('[data-k]').forEach(b=>b.classList.toggle('on',b.dataset.k==k));$('#sub').textContent=LB[k]+': one light on a timer, one that watches the queues. Same junction, same traffic, same minute. Replay of a SUMO simulation.'}
 function lay(x,a,col,dash){x.strokeStyle=col;x.setLineDash(dash||[]);for(const it of a){x.lineWidth=it.w;x.beginPath();it.p.forEach((q,i)=>i?x.lineTo(q[0],q[1]):x.moveTo(q[0],q[1]));x.stroke()}x.setLineDash([])}
 function draw(k){const x=X[k],f=F[k],c=C[k],i=Math.min(T-1,Math.floor(t)),a=f[i],b=f[i+1],u=t-i;
 x.setTransform(1,0,0,1,0,0);x.fillStyle='#1b3a26';x.fillRect(0,0,c.width,c.height);x.setTransform(2.3,0,0,-2.3,c.width/2,c.height/2);x.lineJoin='round';
 lay(x,D.net.side,'#8a8f96');lay(x,D.net.road,'#252a31');lay(x,D.net.cross,'#e9edf2',[0.7,0.7]);
 D.net.links.forEach((l,j)=>{const s=a.s[D.net.vi[j]];x.fillStyle=s=='G'||s=='g'?'#2ee26b':s=='y'?'#ffd23f':'#ff4d4d';x.shadowColor=x.fillStyle;x.shadowBlur=8;x.beginPath();x.arc(l[0],l[1],1.3,0,7);x.fill()});x.shadowBlur=0;
-const mb=new Map(b.v.map(v=>[v[0],v]));for(const v of a.v){const w=mb.get(v[0]);if(!w)continue;const ty=D.types[v[4]]||['',[200,200,200],4.5,1.8];
+const mb=new Map(b.v.map(v=>[v[0],v]));for(const v of a.v){const w=mb.get(v[0]);if(!w)continue;const ty=TY[v[4]]||['',[200,200,200],4.5,1.8];
 x.save();x.translate(v[1]+(w[1]-v[1])*u,v[2]+(w[2]-v[2])*u);x.rotate(-v[3]*Math.PI/180);x.fillStyle='rgb('+ty[1]+')';x.fillRect(-ty[3]/2,-ty[2]/2,ty[3],ty[2]);x.fillStyle='#0008';x.fillRect(-ty[3]/2+.2,ty[2]/2-1.4,ty[3]-.4,.9);x.restore()}
 const q=sum(a.q);mx[k]=Math.max(mx[k],q);$('#q'+k).textContent=q;$('#m'+k).textContent=mx[k]}
 function chart(){const c=$('#ch'),x=c.getContext('2d'),W=c.width,H=c.height,m=Math.max(5,...F.map(f=>Math.max(...f.map(r=>sum(r.q)))));x.clearRect(0,0,W,H);
@@ -43,7 +46,7 @@ function tick(n){if(play){t+=(n-last)/1000*sp*5;if(t>=T){t=0;mx[0]=mx[1]=0}}last
 $('#pl').onclick=e=>{play=!play;e.target.textContent=play?'Pause':'Play'};$('#sc').oninput=e=>{t=e.target.value/1000*T;mx[0]=mx[1]=0};
 document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{sp=+b.dataset.s;document.querySelectorAll('[data-s]').forEach(o=>o.classList.toggle('on',o==b))});
 const nm={normal:'Normal traffic',rush_hour:'Rush hour',uneven:'Uneven demand'};let h='';
-for(const s of ['normal','rush_hour','uneven']){const a=D.stats.find(r=>r.scenario==s&&r.controller=='fixed'),b=D.stats.find(r=>r.scenario==s&&r.controller=='flowsense');
-h+='<div class="card"><p>'+nm[s]+'</p><b>−'+Math.round((1-b.avg_wait_s/a.avg_wait_s)*100)+'%</b> average wait<p>'+a.avg_wait_s.toFixed(1)+' s → '+b.avg_wait_s.toFixed(1)+' s</p><p>Longest wait '+Math.round(a.max_wait_s)+' s → '+Math.round(b.max_wait_s)+' s</p></div>'}
-$('#st').innerHTML=h;requestAnimationFrame(tick);
+for(const s of ['normal','rush_hour','uneven']){const a=D.stats.find(r=>r.scenario==s&&r.controller=='fixed'),b=D.stats.find(r=>r.scenario==s&&r.controller=='flowsense'),c=D.stats.find(r=>r.scenario==s&&r.controller=='tuned');
+h+='<div class="card"><p>'+nm[s]+'</p><b>−'+Math.round((1-b.avg_wait_s/a.avg_wait_s)*100)+'%</b> average wait<p>'+a.avg_wait_s.toFixed(1)+' s → '+b.avg_wait_s.toFixed(1)+' s</p><p>Longest wait '+Math.round(a.max_wait_s)+' s → '+Math.round(b.max_wait_s)+' s</p><p>Best tuned timer: '+D.stats.find(r=>r.scenario==s&&r.controller=='tuned').avg_wait_s.toFixed(1)+' s</p></div>'}
+$('#st').innerHTML=h;document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>setS(b.dataset.k));setS('uneven');requestAnimationFrame(tick);
 </script></body></html>

@@ -7,17 +7,28 @@ import argparse, csv, json, os, statistics
 import sys
 import traci, sumolib
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "controller"))
-from rule_based import Flow, YELLOW  # controller logic lives in ../controller/rule_based.py
+from rule_based import Flow, YELLOW
+from tuned_fixed import tune  # controller logic lives in ../controller/rule_based.py
 import run_baseline as rb
 
-def run(name, seed, mode, win=None, end=3600):
+def run(name, seed, mode, win=None, end=3600, gui=False, delay=0, params=None):
     os.makedirs("results", exist_ok=True)
     ti = f"results/tripinfo_{mode}_{name}_s{seed}.xml"
-    traci.start(["sumo", "-c", "flowsense.sumocfg", "-r", f"routes_{name}.rou.xml", "--tripinfo-output", ti,
-                 "--seed", str(seed), "--no-step-log", "true", "--end", str(end)])
+    cmd = ["sumo-gui" if gui else "sumo", "-c", "flowsense.sumocfg", "-r", f"routes_{name}.rou.xml",
+           "--tripinfo-output", ti, "--seed", str(seed), "--no-step-log", "true", "--no-warnings", "true", "--end", str(end)]
+    if gui:
+        cmd += ["--start", "true", "--quit-on-end", "true", "--delay", str(delay), "--window-size", "680,720",
+                "--window-pos", {"fixed": "0,30", "tuned": "345,30", "flowsense": "690,30"}.get(mode, "0,30")]
+    traci.start(cmd)
     tls = rb.pick_tls(); edges = rb.approach_edges(tls)
     cx, cy = traci.junction.getPosition(tls)
-    ctl = Flow(tls) if mode == "flowsense" else None
+    if gui:
+        try:
+            traci.gui.setSchema("View #0", "real world"); traci.gui.setBoundary("View #0", cx - 160, cy - 90, cx + 160, cy + 90)
+        except traci.TraCIException:
+            pass
+    ctl = Flow(tls, **(params or {})) if mode == "flowsense" else None
+    if mode == "tuned": print("tuned split (N/S, E/W green s):", tune(tls, f"routes_{name}.rou.xml"))
     rows, frames, types = [], [], {}
     while traci.simulation.getTime() < end:
         traci.simulationStep(); now = traci.simulation.getTime()
@@ -56,7 +67,12 @@ def net_view(tls):
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("scenario", choices=rb.BUILT_IN + ["all"]); p.add_argument("--seeds", type=int, default=1)
-    p.add_argument("--replay", nargs=2, type=int); a = p.parse_args()
+    p.add_argument("--replay", nargs=2, type=int)
+    p.add_argument("--gui", action="store_true", help="watch it in SUMO (use with --only)")
+    p.add_argument("--only", choices=["fixed", "tuned", "flowsense"], help="run just one controller")
+    p.add_argument("--delay", type=int, default=50, help="ms per step in the GUI (bigger = slower)")
+    p.add_argument("--end", type=int, default=3600, help="simulated seconds"); a = p.parse_args()
+    modes = (a.only,) if a.only else ("fixed", "tuned", "flowsense")
     names = rb.BUILT_IN if a.scenario == "all" else [a.scenario]
     if a.replay:
         out = {}
@@ -71,11 +87,11 @@ if __name__ == "__main__":
         traci.close(); nv["links"] = links; nv["vi"] = ctl.vi; out["net"] = nv
         json.dump(out, open("results/replay.json", "w"), separators=(",", ":")); print("replay written")
     else:
-        res = [run(n, 42 + k, m)[0] for n in names for k in range(a.seeds) for m in ("fixed", "flowsense")]
+        res = [run(n, 42 + k, m, end=a.end, gui=a.gui, delay=a.delay)[0] for n in names for k in range(a.seeds) for m in modes]
         cols = ["vehicles_finished", "avg_wait_s", "max_wait_s", "avg_time_loss_s", "avg_total_queue", "max_single_road_queue"]
         comp = []
         for n in names:
-            for m in ("fixed", "flowsense"):
+            for m in modes:
                 rs = [r for r in res if r["scenario"] == n and r["controller"] == m]
                 comp.append(dict(scenario=n, controller=m, seeds=len(rs), **{c: round(statistics.mean(r[c] for r in rs), 2) for c in cols}))
         with open("results/compare.csv", "w", newline="") as f:

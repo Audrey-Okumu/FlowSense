@@ -8,20 +8,54 @@
 | generate_scenery.py / scenery.add.xml | Visual only: buildings and trees around the junction (python generate_scenery.py) |
 | routes_*.rou.xml | Generated traffic files |
 | flowsense.sumocfg | SUMO config (1 simulated hour) |
-| run_baseline.py | Runs the fixed-time baseline, logs queues and waiting time, prints a summary |
+| run_baseline.py | Fixed-time baseline only: logs queues and waiting time, prints a summary |
+| run_flowsense.py | Runs the controller modes (fixed, tuned, flowsense) on the scenarios and compares them. Controller logic lives in ../controller/ |
+| run_side_by_side.bat | Opens two SUMO windows on identical traffic: fixed timer (left) vs FlowSense (right) |
+| make_demo.bat, build_demo.py, demo_template.html | Rebuild the results and the demo page (../demo/flowsense_demo.html) |
 | results/ | CSV + tripinfo outputs (do not commit) |
 
-## Run
+## Scenarios and controller modes
+| Scenarios | What it is |
+|---|---|
+| normal | steady traffic on every road |
+| rush_hour | demand ramps up, peaks, then eases |
+| uneven | north and south busy, east and west quiet |
+
+| Controller modes | What it is |
+|---|---|
+| fixed | today's light: 90 s cycle, equal split, never changes |
+| tuned | still a fixed timer, but the N/S vs E/W split is set from the scenario's average demand (fair rival) |
+| flowsense | adaptive: reads queues each second and adjusts green time |
+
+## Run (all commands from this folder, SUMO and `pip install -r ../requirements.txt` done)
+**Everything: all scenarios x all controller modes, 3 seeds, writes results/compare.csv (a few minutes)**
+
+    python run_flowsense.py all --seeds 3
+
+**One scenario, all controller modes** (normal | rush_hour | uneven)
+
+    python run_flowsense.py rush_hour --seeds 3
+
+**One scenario, one controller mode** (fixed | tuned | flowsense)
+
+    python run_flowsense.py uneven --only flowsense --seeds 3
+
+**Watch it live in SUMO**
+
+    python run_flowsense.py uneven --only fixed --gui
+    python run_flowsense.py uneven --only flowsense --gui
+    run_side_by_side.bat uneven          (both windows at once, same traffic)
+
+In the SUMO window, "real world" colours are set automatically; press Play if it is paused. "Retrying in 1 seconds" is normal while SUMO starts.
+
+**Fixed-timer baseline only**
+
+    python run_baseline.py all --seeds 3
+
+**Camera-fed mode** (from ../controller): `python vision_input.py ..\data\lane_counts.json`
+
+## Rebuild the map, traffic and demo page
     netconvert --node-files=intersection.nod.xml --edge-files=intersection.edg.xml -o intersection.net.xml --lefthand --tls.layout=opposites --tls.left-green.time=8 --tls.cycle.time=90 --sidewalks.guess --sidewalks.guess.max-speed 15 --crossings.guess true --crossings.guess.speed-threshold 15
     python generate_demand.py
-    python run_baseline.py rush_hour --gui     (watch it)
-    python run_baseline.py all                 (all scenarios, headless, writes results/summary_fixed.csv)
-    python run_baseline.py all --seeds 3       (3 random seeds + averaged table in results/summary_fixed_avg.csv)
-
-"Retrying in 1 seconds" messages are normal: TraCI is waiting for SUMO to start.
-
-## FlowSense controller and demo
-| File | Purpose |
-|---|---|
-| run_flowsense.py | Adaptive controller (rules: min green 8 s, max 60 s, yellow kept, anyone waiting >90 s served next). `python run_flowsense.py all --seeds 3` runs fixed timer vs FlowSense and writes results/compare.csv |
-| demo_template.html, build_demo.py | Side-by-side replay page. Run `python run_flowsense.py uneven --replay 1000 1300` then `python build_demo.py` |
+    python generate_scenery.py
+    make_demo.bat                        (results + 3 replays + ../demo/flowsense_demo.html)
